@@ -1,0 +1,809 @@
+/* line 1, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_reset.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 11, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_reset.scss */
+body {
+  background-color: darkblue;
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 3, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 320px;
+  background-color: blueviolet;
+  height: 100px;
+}
+
+/* line 11, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.row {
+  margin: 0 15px;
+}
+
+/* line 13, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.row:after, .row:before {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-1 {
+  float: left;
+  padding: 0 15px;
+  width: 8.33333%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-2 {
+  float: left;
+  padding: 0 15px;
+  width: 16.66667%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-3 {
+  float: left;
+  padding: 0 15px;
+  width: 25%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-4 {
+  float: left;
+  padding: 0 15px;
+  width: 33.33333%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-5 {
+  float: left;
+  padding: 0 15px;
+  width: 41.66667%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-6 {
+  float: left;
+  padding: 0 15px;
+  width: 50%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-7 {
+  float: left;
+  padding: 0 15px;
+  width: 58.33333%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-8 {
+  float: left;
+  padding: 0 15px;
+  width: 66.66667%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-9 {
+  float: left;
+  padding: 0 15px;
+  width: 75%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-10 {
+  float: left;
+  padding: 0 15px;
+  width: 83.33333%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-11 {
+  float: left;
+  padding: 0 15px;
+  width: 91.66667%;
+}
+
+/* line 22, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-12 {
+  float: left;
+  padding: 0 15px;
+  width: 100%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-1 {
+  margin-right: 8.33333%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-1 {
+  margin-left: 8.33333%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-2 {
+  margin-right: 16.66667%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-2 {
+  margin-left: 16.66667%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-3 {
+  margin-right: 25%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-3 {
+  margin-left: 25%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-4 {
+  margin-right: 33.33333%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-4 {
+  margin-left: 33.33333%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-5 {
+  margin-right: 41.66667%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-5 {
+  margin-left: 41.66667%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-6 {
+  margin-right: 50%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-6 {
+  margin-left: 50%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-7 {
+  margin-right: 58.33333%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-7 {
+  margin-left: 58.33333%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-8 {
+  margin-right: 66.66667%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-8 {
+  margin-left: 66.66667%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-9 {
+  margin-right: 75%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-9 {
+  margin-left: 75%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-10 {
+  margin-right: 83.33333%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-10 {
+  margin-left: 83.33333%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-11 {
+  margin-right: 91.66667%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-11 {
+  margin-left: 91.66667%;
+}
+
+/* line 29, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-pull-12 {
+  margin-right: 100%;
+}
+
+/* line 32, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+.col-xs-push-12 {
+  margin-left: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 39, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .container {
+    padding: 0;
+    width: 750px;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-1 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 8.33333%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-2 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 16.66667%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-3 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 25%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-4 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 33.33333%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-5 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 41.66667%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-6 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 50%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-7 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 58.33333%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-8 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 66.66667%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-9 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 75%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-10 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 83.33333%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-11 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 91.66667%;
+  }
+  /* line 44, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-12 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 100%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-1 {
+    margin-right: 8.33333%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-1 {
+    margin-left: 8.33333%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-2 {
+    margin-right: 16.66667%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-2 {
+    margin-left: 16.66667%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-3 {
+    margin-right: 25%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-3 {
+    margin-left: 25%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-4 {
+    margin-right: 33.33333%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-4 {
+    margin-left: 33.33333%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-5 {
+    margin-right: 41.66667%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-5 {
+    margin-left: 41.66667%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-6 {
+    margin-right: 50%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-6 {
+    margin-left: 50%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-7 {
+    margin-right: 58.33333%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-7 {
+    margin-left: 58.33333%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-8 {
+    margin-right: 66.66667%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-8 {
+    margin-left: 66.66667%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-9 {
+    margin-right: 75%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-9 {
+    margin-left: 75%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-10 {
+    margin-right: 83.33333%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-10 {
+    margin-left: 83.33333%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-11 {
+    margin-right: 91.66667%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-11 {
+    margin-left: 91.66667%;
+  }
+  /* line 52, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-pull-12 {
+    margin-right: 100%;
+  }
+  /* line 55, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-sm-push-12 {
+    margin-left: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 64, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .container {
+    width: 970px;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-1 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 8.33333%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-2 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 16.66667%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-3 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 25%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-4 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 33.33333%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-5 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 41.66667%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-6 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 50%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-7 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 58.33333%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-8 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 66.66667%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-9 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 75%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-10 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 83.33333%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-11 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 91.66667%;
+  }
+  /* line 68, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-12 {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    width: 100%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-1 {
+    margin-right: 8.33333%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-1 {
+    margin-left: 8.33333%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-2 {
+    margin-right: 16.66667%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-2 {
+    margin-left: 16.66667%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-3 {
+    margin-right: 25%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-3 {
+    margin-left: 25%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-4 {
+    margin-right: 33.33333%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-4 {
+    margin-left: 33.33333%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-5 {
+    margin-right: 41.66667%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-5 {
+    margin-left: 41.66667%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-6 {
+    margin-right: 50%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-6 {
+    margin-left: 50%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-7 {
+    margin-right: 58.33333%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-7 {
+    margin-left: 58.33333%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-8 {
+    margin-right: 66.66667%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-8 {
+    margin-left: 66.66667%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-9 {
+    margin-right: 75%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-9 {
+    margin-left: 75%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-10 {
+    margin-right: 83.33333%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-10 {
+    margin-left: 83.33333%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-11 {
+    margin-right: 91.66667%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-11 {
+    margin-left: 91.66667%;
+  }
+  /* line 76, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-pull-12 {
+    margin-right: 100%;
+  }
+  /* line 79, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-md-push-12 {
+    margin-left: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 88, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .container {
+    width: 1170px;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-1 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 8.33333%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-2 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 16.66667%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-3 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 25%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-4 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 33.33333%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-5 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 41.66667%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-6 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 50%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-7 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 58.33333%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-8 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 66.66667%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-9 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 75%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-10 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 83.33333%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-11 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 91.66667%;
+  }
+  /* line 92, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-12 {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    width: 100%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-1 {
+    margin-right: 8.33333%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-1 {
+    margin-left: 8.33333%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-2 {
+    margin-right: 16.66667%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-2 {
+    margin-left: 16.66667%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-3 {
+    margin-right: 25%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-3 {
+    margin-left: 25%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-4 {
+    margin-right: 33.33333%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-4 {
+    margin-left: 33.33333%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-5 {
+    margin-right: 41.66667%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-5 {
+    margin-left: 41.66667%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-6 {
+    margin-right: 50%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-6 {
+    margin-left: 50%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-7 {
+    margin-right: 58.33333%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-7 {
+    margin-left: 58.33333%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-8 {
+    margin-right: 66.66667%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-8 {
+    margin-left: 66.66667%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-9 {
+    margin-right: 75%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-9 {
+    margin-left: 75%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-10 {
+    margin-right: 83.33333%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-10 {
+    margin-left: 83.33333%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-11 {
+    margin-right: 91.66667%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-11 {
+    margin-left: 91.66667%;
+  }
+  /* line 100, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-pull-12 {
+    margin-right: 100%;
+  }
+  /* line 103, C:/Users/AdrS/Desktop/projektyWWW/10PierwszaStrona/scss/base/_mediaAll.scss */
+  .col-lg-push-12 {
+    margin-left: 100%;
+  }
+}
+
+/*# sourceMappingURL=../css/main.map */
